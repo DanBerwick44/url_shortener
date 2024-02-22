@@ -1,0 +1,35 @@
+{
+  "name": "url_shortener",
+  "version": "1.0.0",
+  "description": "Uses node and MongoDB to pair user-submitted URLs with keys which will redirect to those URLs.",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanBerwick44/url_shortener.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "Daniel Berwick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanBerwick44/url_shortener/issues"
+  },
+  "homepage": "https://github.com/DanBerwick44/url_shortener#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongodb-server": "^1.0.0",
+    "mongoose": "^8.1.3",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
